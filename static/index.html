@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Semantic Search</title>
+
+    <!-- Google Fonts: JetBrains Mono (400, 700) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤔</text></svg>">
+</head>
+<body>
+
+    <header>
+        <h1>Emoji Semantic Search</h1>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <input type="text" id="search-query" aria-label="Search Query">
+            <button id="search-button">Search</button>
+        </div>
+
+        <div id="status-message" class="status"></div>
+
+        <div id="results-container">
+            <!-- Emoji search results appear here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            <a href="https://github.com/madavins" target="_blank" rel="noopener noreferrer">
+                @madavins
+            </a>
+        </p>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
