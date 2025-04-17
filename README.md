@@ -2,7 +2,9 @@
 
 Search for emojis using natural language. Built with FastAPI & SentenceTransformers.
 
-<img width="600" alt="App screenshot" src="https://github.com/user-attachments/assets/b8a23585-839c-4140-af11-74f330538ea9" />
+<p align="center">
+  <img width="700" alt="App screenshot" src="https://github.com/user-attachments/assets/b8a23585-839c-4140-af11-74f330538ea9" />
+</p>
 
 ## Setup
 
