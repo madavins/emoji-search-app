@@ -4,8 +4,8 @@ import json
 import os
 
 EMBEDDING_MODEL = 'all-MiniLM-L6-v2'
-EMBEDDINGS_PATH = "data/emoji_embeddings.npy"
-EMOJI_DATA_PATH = "data/emoji_data.json"
+EMBEDDINGS_PATH = "data/emoji_embeddings_augmented.npy"
+EMOJI_DATA_PATH = "data/emoji_data_augmented.json"
 
 ml_assets = {}
 

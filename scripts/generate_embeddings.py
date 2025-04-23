@@ -3,9 +3,9 @@ import numpy as np
 import os
 from sentence_transformers import SentenceTransformer
 
-INPUT_DATA_FILE = "data/emoji_data.json"
+INPUT_DATA_FILE = "data/emoji_data_augmented.json"
 OUTPUT_DIR = "data"
-EMBEDDINGS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "emoji_embeddings.npy")
+EMBEDDINGS_OUTPUT_FILE = os.path.join(OUTPUT_DIR, "emoji_embeddings_augmented.npy")
 EMBEDDING_MODEL = 'all-MiniLM-L6-v2' # lightweight, fast and performant model
 
 def create_embeddings():
@@ -31,7 +31,7 @@ def create_embeddings():
         print("Error: No data loaded.")
         return
 
-    descriptions = [item['description'] for item in emoji_data] 
+    descriptions = [item['augmented_description'] for item in emoji_data] 
     print(f"Loading Transformer model: {EMBEDDING_MODEL}...")
     
     try:
